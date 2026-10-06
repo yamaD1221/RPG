@@ -123,7 +123,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ouyou.cpp" />
+    <ClCompile Include="EnemyFactory.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="PlayerFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyData.h" />
+    <ClInclude Include="EnemyFactory.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Objpool.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerData.h" />
+    <ClInclude Include="PlayerFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
