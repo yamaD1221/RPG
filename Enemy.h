@@ -11,7 +11,7 @@ public:
 	{
 	}
 
-	void Reset() { /* data ‚ğ‰Šú‰»‚µ‚½‚¯‚ê‚Î‚±‚±‚Å */ }
+	void Reset() {  }
 
 public:
 	EnemyData data;

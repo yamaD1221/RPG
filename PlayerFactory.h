@@ -13,7 +13,7 @@ public:
 
 	static Player* CreatePlayer(int ID);
 
-	// 追加: テーブルからデータを参照するための関数
+
 	static const PlayerData* GetPlayerData(int ID);
 };
 
