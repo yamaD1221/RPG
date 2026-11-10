@@ -123,20 +123,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BattleController.cpp" />
+    <ClCompile Include="BattleView.cpp" />
+    <ClCompile Include="EncounterController.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="EnemyFactory.cpp" />
+    <ClCompile Include="ExploreController.cpp" />
+    <ClCompile Include="GameController.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="MapView.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerController.cpp" />
     <ClCompile Include="PlayerFactory.cpp" />
+    <ClCompile Include="ResultView.cpp" />
+    <ClCompile Include="TitleView.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BattleController.h" />
+    <ClInclude Include="BattleView.h" />
+    <ClInclude Include="EncounterController.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EnemyData.h" />
     <ClInclude Include="EnemyFactory.h" />
+    <ClInclude Include="ExploreController.h" />
+    <ClInclude Include="GameController.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="MapView.h" />
     <ClInclude Include="Objpool.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerController.h" />
     <ClInclude Include="PlayerData.h" />
     <ClInclude Include="PlayerFactory.h" />
+    <ClInclude Include="ResultView.h" />
+    <ClInclude Include="TitleView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

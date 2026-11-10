@@ -1,19 +1,21 @@
 #pragma once
+
 #include "EnemyData.h"
 
 class Enemy
 {
 public:
-	Enemy() = default;
+    Enemy() = default;
 
-	Enemy(const EnemyData& data)
-		: data(data)
-	{
-	}
+    Enemy(const EnemyData& data)
+        : data(data)
+    {
+    }
 
-	void Reset() {  }
+    void Reset() {}
 
-public:
-	EnemyData data;
+    EnemyData data;
+
+    void TakeDamage(int damage);
+    bool IsAlive() const;
 };
-

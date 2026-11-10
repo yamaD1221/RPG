@@ -16,5 +16,7 @@ public:
 
 public:
 	PlayerData data;
+	void TakeDamage(int damage);
+	bool IsAlive() const;
 };
 

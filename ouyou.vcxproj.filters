@@ -9,38 +9,67 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ヘッダー ファイル\ソース ファイル">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{a0815498-d0ce-4769-91db-3b77192ab038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5c827ee5-394a-4d50-9937-27c082466d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{a24f8490-115b-493b-b8aa-a5b88f4ea755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{19c45a8e-df31-4336-8253-3ca720eaeb8c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameManager.cpp">
-      <Filter>ヘッダー ファイル\ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="EnemyFactory.cpp">
-      <Filter>ヘッダー ファイル\ソース ファイル</Filter>
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>ソースファイル</Filter>
     </ClCompile>
     <ClCompile Include="PlayerFactory.cpp">
-      <Filter>ヘッダー ファイル\ソース ファイル</Filter>
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="MapView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="EncounterController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploreController.cpp">
+      <Filter>Controller</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Map.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerData.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyData.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="EnemyFactory.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
@@ -52,6 +81,48 @@
     </ClInclude>
     <ClInclude Include="Objpool.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyData.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="EncounterController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ExploreController.h">
+      <Filter>Controller</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
