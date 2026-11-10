@@ -32,9 +32,6 @@
     <ClCompile Include="PlayerFactory.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Map.cpp">
-      <Filter>Model</Filter>
-    </ClCompile>
     <ClCompile Include="TitleView.cpp">
       <Filter>View</Filter>
     </ClCompile>
@@ -52,15 +49,6 @@
     </ClCompile>
     <ClCompile Include="Enemy.cpp">
       <Filter>Model</Filter>
-    </ClCompile>
-    <ClCompile Include="GameController.cpp">
-      <Filter>Controller</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerController.cpp">
-      <Filter>Controller</Filter>
-    </ClCompile>
-    <ClCompile Include="EncounterController.cpp">
-      <Filter>Controller</Filter>
     </ClCompile>
     <ClCompile Include="BattleController.cpp">
       <Filter>Controller</Filter>
@@ -109,16 +97,7 @@
     <ClInclude Include="TitleView.h">
       <Filter>View</Filter>
     </ClInclude>
-    <ClInclude Include="GameController.h">
-      <Filter>Controller</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerController.h">
-      <Filter>Controller</Filter>
-    </ClInclude>
     <ClInclude Include="BattleController.h">
-      <Filter>Controller</Filter>
-    </ClInclude>
-    <ClInclude Include="EncounterController.h">
       <Filter>Controller</Filter>
     </ClInclude>
     <ClInclude Include="ExploreController.h">
